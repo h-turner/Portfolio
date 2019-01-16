@@ -1,0 +1,131 @@
+body {
+  width: 960px;
+  background-image: url(../images/tex2res4.png);
+  margin-left: 100px;
+} 
+
+.wrapper {
+  background: #ffffff;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 71%;
+  text-align: right;
+}
+
+.content{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 25px;
+  height: 200px;
+}
+
+h5{
+  background: white;
+  color: teal;
+  border-top: 35%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutme {
+  font-size: 40px;
+  margin-top: 0px;
+  padding: 10px 0 0 10px;
+  background-color: white;
+  color: teal;
+}
+
+.words{
+  background-color: white;
+  font-size: 15px;
+  height: 150px;
+  color: black;
+  padding: 20px 10px 0 250px;
+}
+
+.selfie {
+  padding: 0 0 0 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 500px;
+}
+
+.clearfix {
+  width: 960px;
+  margin-bottom: 44px;
+}
+
+.mainheader{
+  width: 50%;
+}
+  
+h1 {
+    float: left;
+    color: white;
+    background-color: teal;
+    height: 50px;
+    text-align: center;
+    border-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    font-size: xx-large;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.selfie {
+    float: left;
+    height: 145px;
+    width: 200px;
+    border: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+ul {
+    padding-left: 14px;
+    padding-top: 6.5px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 960px;
+    background-color: white;
+}
+
+a {
+  padding-right: 33px;
+  color: grey;
+  text-decoration: none;
+}
+
+h2 {padding-left: 10px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+  header{
+    position: static;
+  } 
+}
+
