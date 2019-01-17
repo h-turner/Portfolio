@@ -13,7 +13,6 @@ body {
   text-align: right;
   display: inline-block;
   height: 70px;
-
 }
 
 .content{
@@ -129,4 +128,46 @@ h2 {padding-left: 10px;
 hr {
   margin-left: 11.5px;
   margin-right: 35px;
+}
+
+.pics {
+  padding-right: 400px; 
+}
+
+@media screen and (max-width: 968px){
+  body{
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .container{
+    padding-right: 0px;
+    width: 470px;
+    /*increasing container width doesnt cause portfolio pictures to stack in two columns?*/
+  }
+
+  h2{
+    width: 470px;
+  }
+
+  .words{
+    height: 540px;
+  }
+
+@media screen and (max-width: 768px){
+  body{
+    margin-left: 10px;
+    width: 748px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  header {
+    orientation: static;
+  }
+  body{
+    margin-left: 10px;
+    width: 620px;
+    margin-right: 10px;
+  }
 }
