@@ -1,62 +1,35 @@
-body {
-
+body{
   background-image: url(../images/tex2res4.png);
-  
 } 
 
-.wrapper {
-  background: #ffffff;
-  float: left;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 71%;
-  text-align: right;
-  display: inline-block;
-  height: 70px;
-}
-
-.content{
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  background-color: white;
-  font-size: 10px;
-  word-spacing: 10px;
-  height: 200px;
-}
-
-.aboutme {
+.aboutme{
   font-size: 40px;
-  margin-top: 0px;
-  padding: 10px 0 0 10px;
   background-color: white;
   color: teal;
+  height: auto;
 }
 
 .words{
   background-color: white;
   font-size: 15px;
-  height: 150px;
   color: gray;
-  padding: 0px 10px 200px;
   line-height: 30px;
   margin-right: 10px;
 }
 
-h1 {
+h1{
     float: left;
     color: white;
     background-color: teal;
-    height: 50px;
     text-align: center;
     border-bottom: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 29px;
+    padding: 1.30%;
     font-size: 26px;
     font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
-.selfie {
+.selfie{
     float: left;
     height: 145px;
     width: 200px;
@@ -64,15 +37,14 @@ h1 {
     margin: 10px 20px 0 10px;
 }
 
-nav {
-    padding-left: 14px;
-    padding-top: 12px;
-    margin: 20px;
+nav{
+    padding: 1.85%;
+    margin-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
 }
 
-header {
+header{
     width: 100%;
     background-color: #ffffff;
 }
@@ -83,10 +55,9 @@ header {
     margin: auto;
 }
 
-a {
-  padding-right: 33px;
-  color: grey;
+a{
   text-decoration: none;
+  color: grey;
 }
 
 h2 {padding-left: 10px;
@@ -99,10 +70,6 @@ h2 {padding-left: 10px;
 hr {
   margin-left: 11.5px;
   margin-right: 35px;
-}
-
-.pics {
-  padding-right: 400px; 
 }
 
 form {
@@ -125,16 +92,15 @@ input {
 
 }
 
+.pics{
+  padding-left: 5%;
+}
+
 @media screen and (max-width: 968px){
 
   .container{
     padding-right: 0px;
     width: 470px;
-    /*increasing container width doesnt cause portfolio pictures to stack in two columns?*/
-  }
-
-  .pics{
-    padding-right: 0px;
   }
 
   h2{
@@ -142,44 +108,41 @@ input {
   }
 
   .words{
-    height: 530px;
+    height: auto;
   }
+
 }
 
 @media screen and (max-width: 768px){
+ .container{
+    height: auto;
+ }
 
-  .pics{
-    padding-right: 0px;
-  }
-}
+ .words{
+    height: auto;
+ }
+
 
 @media screen and (max-width: 640px){
-  h1 {
+  h1{
     width: 100%;
-    margin-bottom: 0px;
   }
 
-  .container{
-    width: 310px;
+  nav{
+    text-align: center;
   }
 
   .aboutme{
-    width: 300px;
-    padding-left: 0px;
-  }
-
-  .pics{
-    padding-left: 40px;
+    width: 90%;
   }
 
   .words{
-    height: 980px;
+    height: auto;
   }
 
-  .nav{
-    text-align: center;
-    margin: auto;
-    height: 60px;
-    clear: left;
+  .pics{
+  width: 600px;
+  height: auto;
   }
+}
 }
