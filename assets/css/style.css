@@ -74,15 +74,7 @@ nav {
 
 header {
     width: 100%;
-    height: auto;
     background-color: #ffffff;
-    margin-bottom: 44px;
-    content: "";
-    clear: both;
-    display: table;
-    margin: 0 auto;
-    margin-bottom: 44px;
-    padding: 0px, 100px, 0px, 100px;
 }
 
 .container{
@@ -134,10 +126,7 @@ input {
 }
 
 @media screen and (max-width: 968px){
-  body{
-    margin-left: 4px;
-    margin-right: 4px;
-  }
+
   .container{
     padding-right: 0px;
     width: 470px;
@@ -155,13 +144,9 @@ input {
   .words{
     height: 530px;
   }
+}
 
 @media screen and (max-width: 768px){
-  body{
-    margin-left: 10px;
-    width: 90%;
-    margin-right: 10px;
-  }
 
   .pics{
     padding-right: 0px;
@@ -171,11 +156,7 @@ input {
 @media screen and (max-width: 640px){
   h1 {
     width: 100%;
-  }
-  body{
-    margin-left: 10px;
-    width: 620px;
-    margin-right: 10px;
+    margin-bottom: 0px;
   }
 
   .container{
