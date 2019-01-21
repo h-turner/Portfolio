@@ -24,7 +24,7 @@ h1{
     text-align: center;
     border-bottom: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 1.30%;
+    padding: 1.40%;
     font-size: 26px;
     font-weight: bold;
 }
@@ -58,6 +58,7 @@ header{
 a{
   text-decoration: none;
   color: grey;
+  padding-right: 3%;
 }
 
 h2 {padding-left: 10px;
@@ -114,13 +115,13 @@ input {
 }
 
 @media screen and (max-width: 768px){
- .container{
+  .container{
     height: auto;
- }
+  }
 
- .words{
+  .words{
     height: auto;
- }
+  }
 
 
 @media screen and (max-width: 640px){
